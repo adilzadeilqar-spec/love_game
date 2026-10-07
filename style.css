@@ -1,0 +1,90 @@
+/*
+    Основные стили страницы.
+    Здесь задаём внешний вид, расположение элементов
+    и анимации.
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #ffe0e9, #fff5f7);
+
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+
+    font-size: 42px;
+    color: #d6336c;
+}
+
+.subtitle {
+    margin-bottom: 50px;
+
+    font-size: 20px;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    min-height: 80px;
+}
+
+.love-button {
+    border: none;
+    border-radius: 15px;
+
+    padding: 18px 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: white;
+    background: #e64980;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+}
+
+.love-button:hover {
+    background: #c2255c;
+    transform: scale(1.05);
+}
+
+#runawayButton {
+    position: relative;
+}
+
+.result {
+    margin-top: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    color: #d6336c;
+}
