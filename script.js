@@ -113,7 +113,7 @@ runawayButton.addEventListener("click", (event) => {
 correctButton.addEventListener("click", () => {
 
     // Показываем поздравление.
-    result.textContent = "❤️ Конечно, Илгар! (01:05 - пишу прогу) ❤️";
+    result.textContent = "конечно же, Аксютка попка слоника";
 
     // Увеличиваем кнопку.
     correctButton.style.transform = "scale(1.15)";
